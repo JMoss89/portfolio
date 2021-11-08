@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title> Contact Me </title>
+    </head>
     <header>
         <h1>Contact Me</h1>
-        <a href="mailto: july.x.moss@gmail.com">Email Me</a>
     </header>
+    <figure>
+        <img src="../images/contact-me.jpg" alt="Contact Me">
+    </figure>
+    <fieldset>
+        <legend>Your Contact Details:</legend>
+        <label>
+            Name:
+            <input type="text" name="name" />
+        </label>
+        <label>
+            Email:
+            <input type="text" name="age" />
+        </label>
+        <p>Please select a reason for contacting me:</p>
+        <label>
+            <input type="radio" name="genre" value="frontend development" checked="checked" /> Frontend Development
+            <input type="radio" name="genre" value="backend development" /> Backend Development
+            <input type="radio" name="genre" value="full-stack service" /> Full-Stack Service
+            <input type="radio" name="genre" value="others" /> Others (please leave comments below)
+            <br />
+            <textarea name="comments" placeholder="Enter your comments..."></textarea>
+        </label>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+    </fieldset>
 <footer>
     <p>2021 July Moss</p>
 </footer>
