@@ -6,57 +6,99 @@
   </head>
 
   <body>
-  <nav>
-    <a href="./pages/projects.html" target="_blank">Projects</a>
-    <a href="./pages/contact.html" target="_blank">Contact Me</a>
-  </nav>
 
-  <header>
-    <h1>July Moss</h1> 
-    <figure>
-        <img src="https://avatars.githubusercontent.com/u/93159296?v=4" alt="July Moss Photo">
-    </figure>
+    <header>
+      <div class=" ">
+        <nav>
+          <ul>
+            <li><a href="#about-me"> About Me </a></li>
+            <li><a href="#projects"> Projects </a></li>
+            <li><a href="#contact"> Contact </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <h2>This person is fun, because she can code.</h2>
-  </header>
-  <hr>
-  <section>
-    <h3>About Me</h3>
-    <figure>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Corner_Tower_of_the_Forbidden_City%2C_Beijing.jpg/280px-Corner_Tower_of_the_Forbidden_City%2C_Beijing.jpg" alt="Photograph of Jiao Lou">
-      <br>
-      <figcaption>Jiao Lou, The Forbidden City - the place I used to go often when I was a kid. </figcaption>
-    </figure>
-    <br>
-    <figure>
-      <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/E927/production/_117878695_gettyimages-953919536.jpg" alt="Photograph of Beijing">
-      <br>
-      <figcaption>Beijing - the place I grew up.</figcaption>
-    </figure>
-    <p>My name is July. I am a software developer graduated from <a href="https://www.manchestercodes.com/" target="_blank">Manchester Codes</a>.</p>
-    <p>I tried the introduction course from Manchester Codes by accident while I was considering to change my career path. I enjoyed the sense of achievement by overcoming the challenges that come with coding, and I never want to stop since then.</p>
-    <p>Please feel free to connect with me on <a href="https://uk.linkedin.com/in/july-moss-0a68ab8b" target="_blank">LinkedIn</a> and <a href="https://twitter.com/JulyMoss89" target="_blank">Twitter</a>.</p>
-  </section>
-  <hr>
-  <section>
-    <h3>Qualities</h3>
-    <ol>
-        <li>Positive</li>
-        <li>Passion of learning</li>
-        <li>Curiosity</li>
-    </ol>
-  </section>
-  <hr>
-  <section>
-    <h3>Hobbies & Interests</h3>
-    <ul>
-        <li>Making Lego</li>
-        <li>Playing piano</li>
-        <li>Running</li>
-    </ul>
-  </section>
-  <footer>
-    <p>2021 July Moss</p>
-  </footer>
+    <main>
+      <section>
+        <div class=" ">
+          <h1> July Moss </h1>
+          <figure>
+          <img src="https://avatars.githubusercontent.com/u/93159296?v=4" alt="July Moss Photo">
+          </figure>
+          <p>This person is fun, because she can code.</p>
+        </div>
+      </section>
+      
+      <section id="about-me">
+        <div class=" ">
+          <h1> About Me </h1>
+          <p> Hi, my name is July. I am a software developer trained at <a href="https://www.manchestercodes.com/" target="_blank"> Manchester Codes </a>.</p>
+          <p> I did the Manchester Codes' online programming introduction course while I was considering to change my career path, and I suddenly found I really enjoy the sense of achievement by overcoming the challenges that come with coding, and I never want to stop since then.</p>
+          <p> Please feel free to connect with me on <a href="https://uk.linkedin.com/in/july-moss-0a68ab8b" target="_blank"> LinkedIn </a> and <a href="https://twitter.com/JulyMoss89" target="_blank"> Twitter </a>.</p>
+        </div>
+        <div class=" ">
+          <h2> Qualities </h2>
+          <ul>
+            <li> Positive </li>
+            <li> Passion of learning </li>
+            <li> Curiosity </li>
+          </ul>
+        </div>
+        <div class=" ">
+          <h2> Hobbies & Interests </h2>
+          <ul>
+            <li> Lego </li>
+            <li> Playing piano </li>
+            <li> Running </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class=" ">
+
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class=" ">
+          <h1> Contact Me </h1>
+          <figure>
+            <img src="../images/contact-me.jpg" alt="Contact Me">
+          </figure>
+          <form>
+            <h2>Get in touch with me!</h2>
+              <label for="username">Name:</label>
+              <input type="text" name="username" id="username">
+              <label for="user-email">Email:</label>
+              <input type="text" name="user-email" id="user-email">
+          </form>
+          <form>
+            <span><strong>Please select a reason for contacting me:</strong></span>
+            <br>
+            <input type="radio" name="service" value="frontend development" id="frontend" checked="checked">
+            <label for="frontend">Frontend Development Service</label>
+            <input type="radio" name="service" value="backend development" id="backend" >
+            <label for="backend">Backend Development Service</label>
+            <input type="radio" name="service" value="full-stack" id="full-stack" >
+            <label for="full-stack">Full-Stack Service</label>
+            <input type="radio" name="service" value="others" id="others" >              <label for="others">Others (please specify):</label>
+            <textarea name="other-service" row="2" cols="20" id="others" placeholder="Enter your comments"></textarea>
+          </form>
+          <form>
+            <input type="submit" value="Submit">
+          </form>        
+      </section>
+          
+    </main>
+
+    <footer>
+      <div class=" ">
+        <p> &copy; July Moss 2021 </p>
+      </div>
+    </footer>
+
   </body>
+
 </html>
