@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: yellowgreen;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+    margin: 0;
+    padding: 20px 0;
+}
+
+nav li {
+    color: palevioletred;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    width: 80px;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+main h1 {
+    color: palevioletred;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+}
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.aboutme h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    color: palevioletred;
+}
+
+.aboutme li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: darkslategrey;
+    font-weight: 10px;
+}
+
+.aboutme p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    font-weight: 10px;
+}
+
+.contact form {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    font-weight: 10px;
+}
+
+#contact {
+    margin-bottom: 30px;
+    float: bottom;
+}
+
+#background {
+    background-image: url("https://images.unsplash.com/photo-1557866034-3382e12a4c94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fGJhY2tncm91bmQlMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
